@@ -56,6 +56,8 @@ Instructions:
 17. If the user's message is a chat message, rewrite it as a chat message.
 18. If the user's message is a request, keep it polite and natural.
 19. If the selected tone is "Auto", automatically choose the most appropriate tone based on the context.
+20. At the very end of your response, calculate how grammatically correct or high-quality the original input text was on a scale of 1 to 100, and append it exactly like this format:
+Score: [calculated number here]
 
 Output Requirements:
 
