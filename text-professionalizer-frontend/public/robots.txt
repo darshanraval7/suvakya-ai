@@ -1,0 +1,5 @@
+# Suvakya AI SEO Crawl Rules
+User-agent: *
+Allow: /
+
+Sitemap: https://suvakya-ai.netlify.app/sitemap.xml

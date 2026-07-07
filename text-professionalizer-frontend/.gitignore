@@ -1,0 +1,20 @@
+# Dependencies - Local modules uploading rokva mate
+/node_modules
+/.pnp
+.pnp.js
+
+# Production Build outputs
+/build
+
+# Environment Variables (Tamari secret API Keys lock rakhva)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
