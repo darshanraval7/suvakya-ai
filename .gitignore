@@ -1,0 +1,11 @@
+# Ignore backend node_modules and secret environment keys
+text-professionalizer-backend/node_modules/
+text-professionalizer-backend/.env
+
+# Ignore frontend node_modules and production builds
+text-professionalizer-frontend/node_modules/
+text-professionalizer-frontend/build/
+
+# General logs
+*.log
+.DS_Store
