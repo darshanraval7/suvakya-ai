@@ -44,7 +44,7 @@ function App() {
     setCopiedSection("");
     try {
       // App.js ni andar change karo:
-      const response = await axios.post("http://localhost:5000/api/transform", {
+      const response = await axios.post("https://suvakya-ai-backend.onrender.com/api/transform", {
         text: inputText,
         tone: tone,
       });
